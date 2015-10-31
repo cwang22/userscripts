@@ -2,7 +2,7 @@
 // @name         /r/anime flair clicker
 // @namespace    http://seewang.me/
 // @version      1.0.1
-// @description  no more struggle to copy flair URLs by clicking /r/anime to toggle 
+// @description  click to toggle /r/anime/ flairs
 // @author       cwang22
 // @match        https://www.reddit.com/r/anime/*
 // @grant        GM_addStyle
