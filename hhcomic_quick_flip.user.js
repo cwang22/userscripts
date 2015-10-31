@@ -1,23 +1,25 @@
 // ==UserScript==
-// @name         HHComic quick flip
+// @name         HHComic Flipper
 // @namespace    http://seewang.me/
-// @version      1.0
+// @version      1.0.1
 // @description  bind left&right arrow key with previous&next page, no more clicks
 // @author       cwang22
-// @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
-// @match        http://paga.hhcomic.net/*/*
+// @match        http://www.hhxiee.cc/xiee/*/*
 // @grant        none
 // ==/UserScript==
 
-$(document).keydown(function(e) {
-    switch(e.which) {
+window.onkeydown = function (e) {
+    var code = e.keyCode ? e.keyCode : e.which;
+
+    switch (code) {
         case 37: // left
             prevpage();
             break;
 
         case 39: // right
             nextpage();
-            break;         
-        default: return;
+            break;
+        default:
+            return;
     }
-});
+};
