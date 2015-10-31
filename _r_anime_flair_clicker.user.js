@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         /r/anime flair clicker
 // @namespace    http://seewang.me/
-// @version      1.0.1
+// @version      1.0.2
 // @description  click to toggle /r/anime/ flairs
 // @author       cwang22
 // @match        https://www.reddit.com/r/anime/*
